@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<link rel="Stylesheet" type="text/css" href="/styles/styles.css">
+	<script language="JavaScript" type="text/javascript" src="/html/html2xhtml.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/html/richtext.js"></script>
+</head>
+<body>
+<form name="RTEDemo">
+<div id="btns_my"></div>
+<hr>
+<div id="txt_my"></div>
+<script language="javascript" type="text/javascript">
+<!--
+//Usage: initRTE(imagesPath, includesPath, cssFile, genXHTML)
+initRTE("/images/rte/", "/html/", "", true,'btns_my','txt_my');
+//-->
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+//Usage: writeRichText(fieldname, html, width, height, buttons, readOnly)
+writeRichText('rte1', 'here&#39;s the "<em>preloaded</em> <b>content</b>"', 520, 200, true, false);
+//-->
+</script>
+<p><input type="submit" name="submit" value="Submit"></p>
+</form>
+</body>
+</html>

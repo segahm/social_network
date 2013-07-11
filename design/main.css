@@ -1,0 +1,29 @@
+.title {
+    color:#ffffff;
+    text-decoration:none;
+    padding-left:10px;
+    background-color: #336699;
+}
+td{
+	font-size:12px;
+    color:#000000;
+    font-family:tahoma,arial,sans-serif;
+}
+.mainlinks{
+	text-decoration:none;
+	color:#003399;
+	font-size:13px;
+	font-family:tahoma,arial,sans-serif;}
+.mainlinks:hover{color:#000000}
+select{
+    font-size:12px;
+    color:#336699;
+    font-family:tahoma,arial,sans-serif;
+}
+.inputtext {
+    border: 1px solid;
+    border-color:#666666;
+    color:#000000;
+    font-size:12px;
+    font-family:tahoma,arial,sans-serif;
+}

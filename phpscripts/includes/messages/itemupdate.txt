@@ -1,0 +1,13 @@
+Dear <<name>>,
+Congratulations! We have just received a confirmation from <<buyer>> expressing interest in <<item>>.
+It is important that you contact <<buyer>> ASAP for he/she might lose interest in this posting/item. 
+You might also want to check your partyHub mail, for it will most likely be used by <<buyer>> 
+in order to contact you. If you do wish to contact <<buyer>>, this can also be done through our mail 
+system (this way no private information is disclosed). Please DO NOT REPLY to this message as it was sent 
+from partyHub and not from the <<buyer>>.
+
+By the way, if you are not aware of this yet, there is a feedback system that you can use to rate your experience with <<buyer>>. 
+Remember that by leaving feedback for another user you will be leaving a permanent mark on his/her record - so 
+use this tool wisely.
+have a nice day,
+partyHub team

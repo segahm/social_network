@@ -1,0 +1,5 @@
+Dear <<name>>,
+In order for us to change your school email address we need to first verify your email address. Please follow the link below to proceed with this change
+<<link>>
+cheers,
+partyHub team

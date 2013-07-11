@@ -1,0 +1,38 @@
+Allow from all
+RewriteEngine on
+RewriteRule ^search phpscripts/search.php [NC,L]
+RewriteRule ^signin index.php?signin=1 [NC,L]
+RewriteRule ^signout index.php?signin=0 [NC,L]
+RewriteRule ^register phpscripts/register.php [NC,L]
+RewriteRule ^forgot phpscripts/forgot.php [NC,L]
+RewriteRule ^confirm phpscripts/confirm.php [NC,L]
+RewriteRule ^home phpscripts/home.php [NC,L]
+RewriteRule ^profile phpscripts/profile/profile.php [NC,L]
+RewriteRule ^mypictures phpscripts/pictures.php [NC,L]
+RewriteRule ^myaccount phpscripts/account/account.php [NC,L]
+RewriteRule ^myprivacy phpscripts/account/privacy.php [NC,L]
+RewriteRule ^myconnections phpscripts/connections.php [NC,L]
+RewriteRule ^rides phpscripts/rides.php [NC,L]
+RewriteRule ^parties phpscripts/parties.php [NC,L]
+RewriteRule ^events phpscripts/events.php [NC,L]
+RewriteRule ^editp/general phpscripts/profile/general.php [NC,L]
+RewriteRule ^editp/contact phpscripts/profile/contact.php [NC,L]
+RewriteRule ^editp/courses phpscripts/profile/courses.php [NC,L]
+RewriteRule ^editp/picure phpscripts/profile/picture.php [NC,L]
+RewriteRule ^editp/css phpscripts/profile/css.php [NC,L]
+RewriteRule ^message phpscripts/mail.php [NC,L]
+#trading space
+RewriteRule ^trades phpscripts/trades.php [NC,L]
+RewriteRule ^discussion phpscripts/discussion.php [NC,L]
+RewriteRule ^blogger phpscripts/blog.php [NC,L]
+RewriteRule ^findblog phpscripts/blog_view.php [NC,L]
+
+RewriteRule ^blocked phpscripts/blocked.php [NC,L]
+
+RewriteRule ^doc/invite/social phpscripts/doc/facebook.php [NC,L]
+RewriteRule ^doc/invite phpscripts/doc/invite_friends.php [NC,L]
+
+RewriteRule ^doc/contact phpscripts/doc/contact.php [NC,L]
+RewriteRule ^doc/terms phpscripts/doc/terms.php [NC,L]
+RewriteRule ^doc/help phpscripts/doc/help.php [NC,L]
+

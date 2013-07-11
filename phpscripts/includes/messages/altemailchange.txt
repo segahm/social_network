@@ -1,0 +1,5 @@
+Dear <<name>>,
+In order for us to update your alternative email address we first have to verify that your email address is indeed correct. Please follow the link below to finally update your email adress:
+<<link>>
+cheers,
+partyHub team

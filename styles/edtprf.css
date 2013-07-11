@@ -1,0 +1,18 @@
+.edit_links{
+}
+.edit_on{
+	color:#006633;text-decoration:underline;font-weight:bold;font-size:12px;
+}
+.edit_off{
+	text-align:center;font-size:12px;
+}
+.edit_main{
+	padding:20px;
+}
+.submitButton {
+	font-family:tahoma,arial,sans-serif;font-size: 10pt;
+	font-weight: normal;font-Style: normal;font-variant: normal;
+	color: #ffffff;
+}
+.edtHdr{
+}

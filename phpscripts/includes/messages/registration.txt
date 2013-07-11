@@ -1,0 +1,6 @@
+Dear <<name>>,
+In order for us to verify your email addres, we ask you to follow the link below
+<<link>>
+and thank you for your interest in our site,
+
+partyHub team

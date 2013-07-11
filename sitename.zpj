@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<project version="4.0">
+	<project_entity ID="debugger">
+		<connectionInfo use_defaults="false" tempFilesLocation="C:\Program Files\Zend\ZendStudioClient-4.0.2\tmp" debug_mode="remote" serverHost="http://sitename" port="10000"/>
+		<breakpoints>
+			<breakpoint fileName="C:\Webdeploy\newsite\phpscripts\includes\trades\marketplace\item_reader.inc" lineNumber="54" enable="true" condition=""/>
+			<breakpoint fileName="C:\Webdeploy\newsite\phpscripts\includes\trades\marketplace\item_textbook.inc" lineNumber="89" enable="true" condition=""/>
+		</breakpoints>
+		<watches>
+			<watche expression="$_COOKIE"/>
+		</watches>
+	</project_entity>
+	<project_entity ID="project_roots">
+		<vfile name="C:\Webdeploy\newsite\phpscripts"/>
+		<vfile name="C:\Webdeploy\newsite\tools"/>
+		<vfile name="C:\Webdeploy\newsite\index.php"/>
+		<vfile name="C:\Webdeploy\newsite\oldfunction.php"/>
+		<vfile name="C:\Webdeploy\newsite\test.php"/>
+		<vfile name="C:\Webdeploy\newsite\testext.php"/>
+		<vfile name="C:\Webdeploy\newsite\html"/>
+		<vfile name="C:\Webdeploy\newsite\styles"/>
+	</project_entity>
+	<project_entity ID="bookmarks"/>
+	<project_entity ID="editor_component" selectedEditor="0">
+		<openEditors/>
+	</project_entity>
+	<project_entity ID="CVS">
+		<lastArguments>
+			<CVSCommand commandType="update"/>
+			<CVSCommand commandType="commit"/>
+			<CVSCommand commandType="add"/>
+			<CVSCommand commandType="status"/>
+			<CVSCommand commandType="diff"/>
+		</lastArguments>
+	</project_entity>
+</project>

@@ -1,0 +1,20 @@
+<html>
+<head>
+<script language="javascript" src="/html/utils.js"></script>
+<script language="javascript">
+function init(){
+	var elem = getObjectByID('dv');
+	if (elem.designMode){
+		elem.designMode = true;
+	}else if(elem.contentEditable){
+		elem.contentEditable = true;
+	}
+}
+</script>
+</head>
+<body onload="init()">
+<div id="dv">
+gdfkg podfkgop kdfogkodf
+</div>
+</body>
+</html>

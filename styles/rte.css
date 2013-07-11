@@ -1,0 +1,28 @@
+.rteImage {
+	background-repeat:no-repeat;background-image: url(/images/edit/bg.gif);
+	cursor: pointer;cursor: hand;
+}
+.rteImageRaised, .rteImage:hover {
+	background-repeat:no-repeat;background-image: url(/images/edit/hoverbg.gif);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteImageLowered, .rteImage:active {
+	background-repeat:no-repeat;background-image: url(/images/edit/bg.gif);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.rteVertSep {
+	margin: 0 4px 0 4px;
+}
+
+.rteBack {
+	background-color:#FAFAFA;
+	border-width: 1px;
+}
+.rteDiv {
+	display: block;
+	position: relative;
+}

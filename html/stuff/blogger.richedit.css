@@ -1,0 +1,265 @@
+    
+/* General - Elements and Layout */
+      
+    #RichEdit IMG,
+    #preview IMG 
+      {
+        border:0;
+      }
+
+    div.clear 
+    {
+      clear:both;
+      line-height:0px;
+      height:0px;
+      border:0px;
+      float:none;
+      margin:0px;
+      padding:0px;
+      _display:inline;
+    }
+
+
+    
+/* General - Editing areas */  
+    
+    #RichEdit #editarea,
+    #modebar SPAN.on, 
+    #richbars  
+      {
+        background: #E1D4C0;
+      }
+      
+    #richbars SPAN 
+      {
+        border:1px solid #E1D4C0;
+      }
+
+    #formatbar, #htmlbar 
+      {
+        _border:1px solid #E1D4C0;
+      }
+     
+    #RichEdit, #postoptions
+      {
+        width:85%;
+      }  
+   #editarea
+     {
+      padding-bottom:0em !important;
+     }  
+
+
+
+/* The formatting bars */
+
+    #richbars IMG 
+      {
+        _margin:0 1px 0 0;
+      }
+        
+    #RichEdit SELECT 
+      {
+        font-size:80% !important;
+      }
+      
+    #RichEdit DIV.vertbar span.g
+      {
+        width:2px !important;
+      }
+
+    #RichEdit DIV.vertbar span.w
+      {
+        width:2px !important;
+      }
+      
+      
+
+      
+/* Preview */
+      
+    #previewbody
+      {
+        font-size:130%;
+        color:#666;
+        margin-left:.2em;
+      }
+
+    #preview
+      {
+        width:50em;
+        margin-left:.7em;
+        padding:1em 2em 2em 2em; 
+        _padding-top:.5em;
+        font-family:Georgia, serif;
+      }
+
+    /* 
+    Mozilla has the scrollbar off by default, 
+    which can change the placement of elements when
+    preview appears 
+    */
+    html>body #SubmitTwo 
+      {
+        margin-bottom:300px;
+      }
+
+    #preview h1
+      {
+        line-height:110%;
+        font-size:200%;
+        margin:0 0 .8em 0;
+        display:none;
+      }  
+
+    #preview h1 a 
+      {
+        color:#36c;
+      }
+
+    span#formatbar_PreviewAction,
+    span#htmlbar_PreviewAction 
+      {
+        float:right;
+        text-decoration:none;
+        font-size:95% !important;
+        _font-size:90% !important;
+        padding:.1em .2em 0 .1em;
+        _padding-right:.1em;
+        border-bottom:1px solid #00c;
+        color:#00c;
+        margin-right:.4em;
+        _margin-right:0;
+      }
+        
+
+      
+/* Form elements */
+        
+    input.text, input.num, textarea, select
+      {
+        border-bottom:solid 1px #333;
+        border-right:solid 1px #222;
+        border-top:solid 2px #aaa;
+        border-left:solid 1px #bbb;
+        padding:2px;
+        margin:0;
+      }
+
+    input.text
+      {
+        width:30em;
+      }
+        
+    INPUT 
+      {
+        z-index:100;
+      }
+        
+         
+
+
+      
+/* Posting options bar */   
+     
+   #postoptions 
+      {
+        padding-bottom:10px;
+        padding-top:5px;
+        background: #eee;
+        min-width:700px;
+        border:1px solid #ccc;
+        border-right:0;
+        border-left:1px solid #eee;
+      }
+      
+   #postoptions div.minwidth 
+     {
+       _width:700px;
+     }   
+      
+   #postoptions div.section
+      {
+        font-size:100%;
+        float:left;
+        margin-left:10px;
+      }  
+    
+   #postoptions INPUT 
+      {
+        font-size:100%;
+      }
+      
+   #postoptions SELECT 
+      {
+        display:inline;
+        float:none;
+        font-size:100%;
+      }   
+        
+       
+      
+/* Making the editor fixed-width */
+
+    #titles 
+      {
+        _width:450px;
+      }
+
+    #f-title, 
+    #f-address 
+      {
+        width:300px;
+      }
+      
+    #modebar, 
+    #richeditorframe, 
+    #richbars, 
+    #editarea
+      {
+        width:700px;
+      }
+      
+    html>body #richbars 
+      {
+        width:698px;
+      }
+      
+    #postoptions 
+      {
+        width:710px;
+        _width:717px;
+      }
+      
+    #preview 
+      {
+        width:600px;
+      }
+      
+   
+/* Keyboard commands legend */
+
+   #key_commands
+     {
+       font-size:80%;
+       text-align:right;
+       margin:0em;
+       padding:.5em .5em .3em 0em;
+       color:#555;
+       background:#E1D4C0;
+     } 
+      
+      
+/* Recover post */
+
+  #recover span
+    {
+      text-align:left;
+      text-decoration:underline;
+      font-size:90% !important;
+      cursor:pointer;
+      cursor:hand;
+      float:none;
+      display:inline;
+    }
+      

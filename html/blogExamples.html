@@ -1,0 +1,114 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="/styles/styles.css">
+<style type="text/css">
+.style_name{
+	color:#FF99FF;
+}
+.style_prop{
+	color:#0066CC;
+}
+.style_value{
+	color:#3333FF;
+}
+</style>
+</head>
+<body>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr><td style="padding:10px;">
+	<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left" valign="top" class="roundCrnlt"><img src="/images/c_lt.gif"></td>
+		<td class="roundedge" width="100%">&nbsp;</td>
+		<td align="right" valign="top" class="roundCrnrt"><img src="/images/c_rt.gif"></td>
+	</tr>
+	<tr><td colspan="3" class="roundsides" style="padding-left:5px;">
+	<span style="color:#009933;font-weight:bold;">Blog Examples</span>
+	<hr color="#996666">
+	<p class="hdr">What are CSS properties?</p>
+	<p class="txt">CSS properties specify a set of styles to apply to different html elements on the page. Some Css 
+	properties are applied to only those elements that directly specify their classname (name of the css property). 
+	These properties are usually declared using "." -  in front of the classnames (ex: .myheader{color:#CCCCCC} 
+	- where myheader is the classname). 
+	Others, can be used to specify styles for generic elemtns such as "body", "table", "td" tags. 
+	When you create your styles make sure you clearly understand the difference between the two. One 
+	of the main differences lies in the fact that you can only use the classname styles if we 
+	hardcoded those classnames into our code. Feel free to look at some of the examples below.</p>
+	<p class="hdr">CSS Examples:</p>
+	<pre>
+.post_div{
+	width:500;display:inline;
+}
+.comment_div{
+	margin:3px;
+	width:400;display:inline;
+}
+.post_title{
+	font-size:14px;font-weight:bold;color:#009933;
+	text-decoration:underline;
+}
+.blog_title{
+	font-size:18px;font-weight:500;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.date_stl{
+	font-size:11px;color:#999999;
+}
+.divider{
+	color:#999966
+}
+.other_header{
+	font-weight:bold;
+	font-size:120%;
+	margin:0px;
+	padding:0px;
+	color:#333333
+}
+.other_title{
+	color:#3399CC;
+}
+.other_title:hover{
+	color:#CC9999;
+}
+.blgBtn{
+	font-family:tahoma,arial,sans-serif;font-size: 11px;
+	font-weight: normal;font-Style: normal;font-variant: normal;
+	color: #ffffff;background-color:#CC6633;
+}
+body{
+	background-color:#CCCCCC;
+}
+	</pre>
+	<p class="txt">In the above example we have a "body" classname which applies to the generic 
+	body tag and doesn't need to be directly hardcoded (with "class" attribute) in html. However, all 
+	the other properties are classnames created by us and need to be present on the html page 
+	in order to apply to those elemts.</p>
+	<p class="hdr">A few More Examples</p>
+	<pre>
+body{
+	background-repeat:no-repeat;background-image: 
+		url(http://somedomain.com/somefile.jpeg);
+}
+	</pre>
+	<p class="txt">The above example would set the background image specified by the url. 
+	Of course you can modify how it is rendered/displayed--i.e. making it fixed to the screen and much more.</p>
+	<p class="hdr">HTML On our side:</p>
+	<p class="txt">when you see an element in our html code with an attribute such as "class=" 
+	you can use the name in quotes to create your own style property. Example: <br>
+	&lt;span class=&quot;blgBtn&quot;&gt;some text goes&lt;/span&gt; - this text will hence be rendered 
+	accroding to "blgBtn" style property. On ther hand, the "body" style applies to the whole page and does not 
+	neet to have an element with a class attribute.</p>
+	<p class="hdr">More...</p>
+	<p class="txt">There is a great number of web sites that describe how this stuff works, but why should we continue 
+	when you probably know more about this stuff than we do :-(<br>have fun guys!</p>
+	</td></tr>
+	<tr>
+		<td align="left" valign="bottom" class="roundCrnlb"><img src="/images/c_lb.gif"></td>
+		<td class="roundedgebt" width="100%">&nbsp;</td>
+		<td align="right" valign="bottom" class="roundCrnrb"><img src="/images/c_rb.gif"></td>
+	</tr>
+	</table>
+	</td></tr>
+</table>
+</body>
+</html>

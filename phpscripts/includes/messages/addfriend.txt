@@ -1,0 +1,6 @@
+Dear <<invited>>,
+
+<<inviter>> has just requested to list you as a friend, but before we can connect you two, we need to verify that the two of you are indeed friends. Please confirm your friendship with <<inviter>> by going to our site.
+
+have a nice day,
+partyHub team

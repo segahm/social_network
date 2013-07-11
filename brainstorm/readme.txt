@@ -1,0 +1,1 @@
+use this folder for flowcharts/html designs/general logic descriptions
